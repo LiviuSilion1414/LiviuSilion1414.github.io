@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Media Fetcher</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fafafa;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .card {
+            border: 1px solid #dbdbdb;
+            border-radius: 10px;
+            overflow: hidden;
+            width: 300px;
+            background-color: white;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .card img, .card video {
+            width: 100%;
+            height: auto;
+        }
+        .card-content {
+            padding: 15px;
+        }
+        .card-content h3 {
+            margin: 0 0 10px;
+            font-size: 18px;
+        }
+        .card-content p {
+            margin: 0;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <h1>Latest Instagram Media</h1>
+    <div id="content" class="container"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
