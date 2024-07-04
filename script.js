@@ -1,7 +1,7 @@
 // Replace with your actual app credentials and redirect URI
-const APP_ID = 'your-app-id';
-const REDIRECT_URI = 'your-redirect-uri';
-const APP_SECRET = 'your-app-secret';
+const APP_ID = '1635785580547582';
+const REDIRECT_URI = 'https://ellyevents.com';
+const APP_SECRET = '65a2456be76605212b7fd2ec7aeccd0c';
 const AUTH_URL = `https://api.instagram.com/oauth/authorize?client_id=${APP_ID}&redirect_uri=${REDIRECT_URI}&scope=user_profile,user_media&response_type=code`;
 
 // Check if we have an access token stored
