@@ -1,6 +1,6 @@
 // Replace with your actual app credentials and redirect URI
 const APP_ID = '1635785580547582';
-const REDIRECT_URI = 'https://testwebsite.com/auth/'; //https://www.ellyevents.com
+const REDIRECT_URI = 'https://developers.facebook.com/instagram/token_generator/oauth/?code=AQBdAt2plf_Q6Re2iZ-VrrAbq1Rt8eMlWWKkAJ6Wyc-oluLPWg7K4UtHxLB-UfbPQFS43-qgTDtK3K3dOr1UiwHXT-oaXa2Q96Kf7wqQpUe02SPJ-vuFw8FZBUfsgje9fUhS7lPqmgK5uNyVwayfbPJw3GpYfV79-HY1zZgxTwIRz9pEbP49PbaN1soN3Q5ROSTQx2dDGeZ7T_brEcnSrbOmeevr6MCRArj4Mc5HLybGUw&state=%7B%22app_id%22%3A%221635785580547582%22%2C%22user_id%22%3A%2217841467563673171%22%2C%22nonce%22%3A%2244ujS01HJHMfoOfK%22%7D#_'; //https://www.ellyevents.com
 const APP_SECRET = '65a2456be76605212b7fd2ec7aeccd0c';
 const AUTH_URL = `https://api.instagram.com/oauth/authorize?client_id=${APP_ID}&redirect_uri=${REDIRECT_URI}&scope=user_profile,user_media&response_type=code`;
 
